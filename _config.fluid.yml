@@ -557,12 +557,7 @@ post:
   banner_img: /img/default.jpg
   banner_img_height: 70
   banner_mask_alpha: 0.3
-  slogan:
-    enable: true
 
-    # 为空则按 hexo config.subtitle 显示
-    # If empty, text based on `subtitle` in hexo config
-    text: "欢迎来到我的世界"
   # 文章在首页的默认封面图，当没有指定 index_img 时会使用该图片，若两者都为空则不显示任何图片
   # Path of the default post cover when `index_img` is not set. If both are empty, no image will be displayed
   default_index_img:
@@ -926,7 +921,12 @@ archive:
   banner_img: /img/sea.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
+  slogan:
+    enable: true
 
+    # 为空则按 hexo config.subtitle 显示
+    # If empty, text based on `subtitle` in hexo config
+    text: "欢迎来到我的世界"
 
 #---------------------------
 # 分类页
