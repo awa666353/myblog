@@ -921,12 +921,6 @@ archive:
   banner_img: /img/sea.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
-  slogan:
-    enable: true
-
-    # 为空则按 hexo config.subtitle 显示
-    # If empty, text based on `subtitle` in hexo config
-    text: "欢迎来到我的世界"
 
 #---------------------------
 # 分类页
