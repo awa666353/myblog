@@ -932,12 +932,7 @@ category:
   banner_img: /img/dusk.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
-  slogan:
-    enable: true
-
-    # 为空则按 hexo config.subtitle 显示
-    # If empty, text based on `subtitle` in hexo config
-    text:"莫道桑榆晚，为霞尚满天"
+  subtitle: "莫道桑榆晚，为霞尚满天"
   # 分类的排序字段，前面带减号是倒序，不带减号是正序
   # Sort field for categories, with a minus sign is reverse order
   # Options: length | name
