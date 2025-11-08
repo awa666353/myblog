@@ -921,7 +921,7 @@ archive:
   banner_img: /img/sea.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
-
+  subtitle: "曾经沧海难为水，除却巫山不是云"
 
 #---------------------------
 # 分类页
@@ -961,6 +961,7 @@ tag:
   banner_img: /img/coast.jpg
   banner_img_height: 80
   banner_mask_alpha: 0.3
+  subtitle: "暮霭生深树，斜阳下小楼"
   tagcloud:
     min_font: 15
     max_font: 30
@@ -978,6 +979,7 @@ about:
   banner_img: /img/mars.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
+  subtitle: "天高地迥，觉宇宙之无穷"
   avatar: /img/avatar.png
   name: "陈映政"
   intro: "人生若只如初见，何事秋风悲画扇。"
