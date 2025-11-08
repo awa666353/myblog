@@ -1068,6 +1068,23 @@ links:
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
     type: disqus
 
+meting:
+  enable: true          # 启用音乐播放器
+  autoplay: true        # 自动播放
+  theme: '#b7daff'      # 播放器主题色，可换自己喜欢的颜色
+  loop: 'all'           # 循环播放
+  order: 'list'         # 顺序播放
+  preload: 'auto'       # 自动加载音频
+  volume: 0.5           # 默认音量（0~1）
+  fixed: true           # 固定在底部悬浮显示
+  mini: false           # 是否启用迷你模式（false = 显示完整播放器）
+  listFolded: true      # 歌单折叠（单曲时可忽略）
+  only_home: true       # 仅在首页显示播放器  
+
+  # 网易云音乐单曲配置
+  server: netease       # 音源平台：网易云
+  type: song            # 类型：单曲
+  id: 3315523992        # 你提供的歌曲 ID
 
 #---------------------------
 # 以下是配置 JS CSS 等静态资源的 URL 前缀，可以自定义成 CDN 地址，
