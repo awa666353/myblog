@@ -483,14 +483,16 @@ index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
   # banner_img: /img/default.jpg
-  banner_img: /img/default.jpg     # 图片备用
+  banner_img: /img/default.jpg        # 作为兜底（可留）
   banner_video:
     enable: true
-    src: /video/rocket.mp4
+    src: /video/rocket.mp4            # 或写成数组，见下一条
     poster: /img/default.jpg
     loop: true
     muted: true
     autoplay: true
+    playsinline: true                 # ✅ iOS/移动端要求内联播放
+    preload: auto                     # 让它尽快缓存一点数据再播（可选）
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
