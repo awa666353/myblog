@@ -485,7 +485,7 @@ index:
   banner_img: /img/default.jpg
   banner_video:
     enable: true
-    src: /video5/bg.mp4
+    src: /video/video5.mp4
     # poster: /img/default.jpg    # 可选：视频加载前的封面图
     loop: true                    # 是否循环播放
     muted: true                   # 是否静音（建议开，防止浏览器阻止自动播放）
