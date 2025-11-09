@@ -24,4 +24,10 @@ description: 这里是我的个人简介与联系方式
 - 目标 A：学好专业知识，争取做个好医生，饿不死的小目标。。qaq
 - 目标 B：不断学习新知识，拓展认知边界，攒钱去看看世界！人没了梦想和咸鱼有什么区别？awa
 
+## 🎵 一首王琳凯的<你最近过的还好吗>送给你：
+<audio controls loop preload="none">
+  <source src="/music/ghost.mp3" type="audio/mpeg">
+  你的浏览器不支持音频播放。
+</audio>
+
 ---
